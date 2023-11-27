@@ -628,6 +628,14 @@ input, select, textarea {
 		margin-bottom: 1em;
 	}
 
+	img {
+		border: 0px solid rgb(20, 4, 103); 
+		width: 490px; 
+		height: 490px; 
+		object-fit: cover; 
+		padding: 30px
+}
+
 /* Box */
 
 	.box {
