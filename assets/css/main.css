@@ -2133,6 +2133,16 @@ input, select, textarea {
 				background: #f5f6f7;
 			}
 
+			.main.style3.secondary p {
+				font-size: 30px;
+			}
+
+			.main.style3.secondary i {
+				position: relative;
+				padding-right: 15px;
+				top: 5px;
+			}
+
 			.main.style3.experience {
 				background: #f8f6e3;
 			}
