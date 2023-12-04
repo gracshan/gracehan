@@ -722,6 +722,34 @@ input, select, textarea {
 				height: 4.5em;
 				margin-left: -2.5em;
 			}
+		
+		input[type="button"].up,
+		input[type="submit"].up,
+		input[type="reset"].up,
+		.button.up,
+		button.up {
+			width: 5em;
+			height: 5em;
+			line-height: 4.5em;
+			padding: 0;
+			background-image: url("images/up-dark-arrow.svg");
+			background-position: center center;
+			background-repeat: no-repeat;
+			text-indent: -10em;
+			overflow: hidden;
+		}
+
+			input[type="button"].up.anchored,
+			input[type="submit"].up.anchored,
+			input[type="reset"].up.anchored,
+			.button.up.anchored,
+			button.up.anchored {
+				top: 0;
+				border-top: 0;
+				border-radius: 0 0 3em 3em;
+				height: 4.5em;
+				margin-left: -2.5em;
+			}
 
 		input[type="button"].anchored,
 		input[type="submit"].anchored,
@@ -780,6 +808,14 @@ input, select, textarea {
 			.button.style2.down,
 			button.style2.down {
 				background-image: url("images/arrow.svg");
+			}
+
+			input[type="button"].style2.up,
+			input[type="submit"].style2.up,
+			input[type="reset"].style2.up,
+			.button.style2.up,
+			button.style2.up {
+				background-image: url("images/up-arrow.svg");
 			}
 
 /* Form */
@@ -2169,6 +2205,10 @@ input, select, textarea {
 
 				.main.dark .button.style2.down {
 					background-image: url("images/dark-arrow.svg");
+				}
+
+				.main.dark .button.style2.up {
+					background-image: url("images/up-dark-arrow.svg");
 				}
 
 		body.is-touch .main {
